@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 # LOAD MODEL PIPELINE
-model = joblib.load("Palmpay_Pipeline.pkl")
+model = joblib.load("Palmpay_Pipeline1.pkl")
 preprocessor = model.named_steps["preprocessor"]
 classifier = model.named_steps["classifier"]
 
